@@ -12,6 +12,7 @@ import "./style.css";
 
 export default function App() {
   const [pokemonArray, setPokemonArray] = useState([]);
+  // eslint-disable-next-line no-unused-vars
   const [pokemonCart, setPokemonCart] = useState([]);
   const [offset, setOffset] = useState(0);
   const [totalPrice, setTotalPrice] = useState(0)

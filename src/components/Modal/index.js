@@ -15,7 +15,7 @@ export default function Modal({hideModal}) {
           }}>
               <div style={{  
             backgroundColor: 'white', padding:'50px 80px', display:'flex', flexDirection:'column'}}>
-                <a href={"https://c19boasnoticias.netlify.app/sobre.html"} target={"_blank"} style={{paddingBottom:'20px', textAlign: 'center'}}>Sobre o Desenvolvedor</a>
+                <a href={"https://c19boasnoticias.netlify.app/sobre.html"} target={"_blank"} rel={"noopener noreferrer"}style={{paddingBottom:'20px', textAlign: 'center'}}>Sobre o Desenvolvedor</a>
 
                 <h1 style={{paddingBottom:'20px', textAlign: 'center'}}>COMPRA REALIZADA <br/>PARABÉNS!!!</h1>
                 <p style={{paddingBottom:'20px', textAlign: 'center'}}>Volte sempre!</p>

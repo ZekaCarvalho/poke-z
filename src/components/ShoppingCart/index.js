@@ -1,6 +1,5 @@
 import React from "react";
 import * as S from "./styled.js";
-import { divCard } from "../Card/styled.js";
 
 export default function ShoppingCart({removeStatePokemon, pokemonCart, totalPrice, endShop }) {
 
