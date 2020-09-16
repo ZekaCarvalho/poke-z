@@ -2,20 +2,25 @@ import styled from 'styled-components'
 
 
 export const containerCart = styled.div`
+    
     border: 1px solid #040404;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: whitesmoke;
+    
     @media(min-width:1000px){
         position: fixed;
         right: 0;
+        top: 0;
         margin: 30px ;
-        margin-top: 0;
-        float: right;
+        margin-top: 20vh;
+        
+        
     }
     
+     
 `
 
 export const p = styled.p`
